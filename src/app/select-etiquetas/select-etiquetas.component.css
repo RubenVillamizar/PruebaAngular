@@ -1,0 +1,25 @@
+ng-select {
+  background-color: #f1f1f1;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  border: 2px solid blue;
+  outline: none;
+
+}
+
+.ng-select-container .ng-arrow-wrapper {
+  color: red;
+}
+
+.ng-select-container .ng-clear-wrapper {
+  color: green;
+}
+ng-select ::ng-deep .ng-dropdown-panel {
+  display: block !important;
+  opacity: 1 !important;
+
+}
+

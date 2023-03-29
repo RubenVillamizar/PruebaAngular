@@ -1,0 +1,8 @@
+{
+    "/api/*":{
+        "target":"https://prueba-tec-ruben.herokuapp.com/",
+        "secure":true,
+        "logLevel":"debug"
+    }
+    
+}

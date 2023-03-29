@@ -1,0 +1,13 @@
+
+<h1>Etiquetas</h1>
+
+
+<ng-select [(ngModel)]="selectagUno" [items]="tags" bindValue="id" bindLabel="nombre" (ngModelChange)="onSelect(selectagUno)">
+</ng-select>
+
+
+<p>Etiqueta seleccionada: {{selectagUno}}</p>
+
+<br>
+
+

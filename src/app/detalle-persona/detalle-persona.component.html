@@ -1,0 +1,26 @@
+<div *ngIf="selectedPersona">
+
+  <h2> Detalle de Datos: {{selectedPersona.data.nombre_completo}} </h2>
+  <div>
+    <table class="colapsado" border="1">
+      <tr>
+        <td>Edad</td>
+        <td>{{selectedPersona.data.edad}}</td>
+        </tr>
+      <tr>
+      <td>Ciudad</td>
+      <td>{{selectedPersona.data.ciudad}}</td>
+      </tr>
+      <tr> 
+        <td>Telefono</td>
+      <td>{{selectedPersona.data.telefono}}</td>
+      </tr>
+      <tr> 
+        <td>Dirección</td>
+      <td>{{selectedPersona.data.direccion}}</td>
+      </tr>
+      
+      </table>
+  </div>
+
+</div>

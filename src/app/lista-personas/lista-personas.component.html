@@ -1,0 +1,13 @@
+
+<div class="container mt-5">
+  
+    <h2>Listado de personas</h2>
+    
+  <ul class="heroes">
+    <li *ngFor="let per of pers"
+      [class.selected]="per === selectedPersona" [routerLink]="['/','detallePersona',(per.id)]"
+       (click)="onSelect(per.id)">
+      <span class="badge">{{per.id}}</span> {{per.nombre_completo}}
+    </li>
+  </ul>
+  
